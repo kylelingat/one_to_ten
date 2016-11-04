@@ -1,15 +1,20 @@
+// setting variables
 var hero = 'bruh';
 var gender = 'boy';
 var age = 15;
 var weapon = 'gun';
 var pronoun = null;
 
+
+// condition based on gender
 if (gender === 'boy') {
   pronoun = 'his';
 } else if (gender === "female") {
   pronoun = 'her';
 }
 
+
+// check age
 if (age < 18) {
   console.log('is just beginning');
 }
@@ -24,9 +29,10 @@ else {
   }
 }
 
-console.log(hero + ' is our lovable hero, who' +  );
+// concatenate
+console.log(hero + ' is our lovable hero, who')
 
-
+// 1 fish 2 fish
 var count = null;
 var animal = 'zebra';
 
@@ -37,12 +43,16 @@ function animalHouse (a,b){
 
 animalHouse(1,2);
 
+
+//1 fish 2 many fish
 if (count > 2 ){
   console.log('We have too many ' + animal + 's');
 } else {
   console.log('Welcome to the club');
 }
 
+
+// avengers
 var hero = 'hulk';
 
 function avengersAssemble (avenger){
@@ -63,6 +73,8 @@ function avengersAssemble (avenger){
 
 avengersAssemble('ironMan');
 
+
+//light
 lights = true;
 
 if (lights == true){
@@ -71,6 +83,8 @@ if (lights == true){
   console.log('Lights out');
 }
 
+
+//car
 var carType = 'toyota';
 var color = 'black';
 var num = 12;

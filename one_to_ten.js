@@ -16,10 +16,10 @@ if (gender === 'boy') {
 
 //age check
 
-if (age <= 18) {
+if (age < 18) {
   ageB = "is just beginning";
 }
-else if  (age >=19 && age <=40){
+else if  (age > 19 && age <40){
   ageB = "has seen a few battles";
 }
 else if (age > 40){

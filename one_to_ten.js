@@ -14,23 +14,20 @@ if (gender === 'boy') {
 }
 
 
-// check age
-if (age < 18) {
-  console.log('is just beginning');
+//age check
+
+if (age <= 18) {
+  ageB = "is just beginning";
 }
-else {
-  if (age > 21 && age < 40) {
-    console.log('has seen a few battles');
-  }
-  else {
-    if (age > 40) {
-      console.log('has lived through many epic battles');
-    }
-  }
+else if  (age >=19 && age <=40){
+  ageB = "has seen a few battles";
+}
+else if (age > 40){
+  ageB = "has lived through many epic battles";
 }
 
-// concatenate
-console.log(hero + ' is our lovable hero, who has seen a few battles with his trusty' + weapon)
+//concatenate
+console.log(hero + ' is our lovable hero, who ' + ageB  + ' with his trusty ' + weapon )
 
 // 1 fish 2 fish
 var count = null;

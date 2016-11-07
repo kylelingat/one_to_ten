@@ -30,7 +30,7 @@ else {
 }
 
 // concatenate
-console.log(hero + ' is our lovable hero, who')
+console.log(hero + ' is our lovable hero, who has seen a few battles with his trusty' + weapon)
 
 // 1 fish 2 fish
 var count = null;
@@ -57,7 +57,7 @@ var hero = 'hulk';
 
 function avengersAssemble (avenger){
   if (avenger == 'hulk') {
-    console.log(hero + ' smash');
+    console.log(avenger + ' smash');
   }
   else if (avenger == 'ironMan') {
     console.log ('idk');
@@ -77,7 +77,7 @@ avengersAssemble('ironMan');
 //light
 lights = true;
 
-if (lights == true){
+if (lights === true){
   console.log('And then there was light')
 } else {
   console.log('Lights out');
